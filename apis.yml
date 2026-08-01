@@ -1,8 +1,30 @@
 aid: peopleai
+accessModel:
+  pricing: unknown
+  onboarding: approval
+  trial: false
+  try_now: false
+  public: false
+  label: Requires approval
+  confidence: medium
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/peopleai.png
 name: People.ai
-description: People.ai is a company surfaced as a portfolio company of a16z, ggv-capital, partech and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  People.ai is an AI-powered revenue intelligence platform for enterprise sales
+  teams. It automatically captures sales activity and contact data from email,
+  calendar, and meetings, matches it into CRM systems like Salesforce and
+  Microsoft Dynamics 365, and delivers AI-driven forecasting, opportunity
+  management, account execution, and engagement forensics to improve pipeline
+  visibility and drive predictable revenue growth. People.ai integrates with
+  Salesforce, Microsoft, Oracle, Slack, Zoom, Webex, 6sense, and ZoomInfo. It
+  is delivered as an enterprise SaaS product and does not publish a public
+  developer API; its trust and security posture is documented with SOC 2, ISO
+  27001, ISO 27017, GDPR, and CSA STAR. As of 2026 People.ai has rebranded to
+  Backstory (www.people.ai now 301-redirects to www.backstory.ai); the product
+  login remains at app.people.ai.
 url: https://raw.githubusercontent.com/api-evangelist/peopleai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,9 +36,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Revenue Intelligence
+- Sales
+- Artificial Intelligence
+- CRM
+- Sales Automation
+- Forecasting
+- Enterprise
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +55,34 @@ maintainers:
 common:
 - type: Website
   url: https://www.people.ai/
+- type: Blog
+  url: https://www.people.ai/blog
+- type: Support
+  url: https://www.people.ai/about-us/contact-us
+- type: TermsOfService
+  url: https://www.people.ai/terms-and-conditions-eusa-10-17-17
+- type: PrivacyPolicy
+  url: https://www.people.ai/privacy
+- type: Login
+  url: https://app.people.ai/login/
+- type: TrustCenter
+  name: People.ai Trust & Security
+  url: https://www.people.ai/product/trust-security
+- type: Compliance
+  url: https://www.people.ai/product/trust-security
+- type: Integrations
+  url: https://www.people.ai/product/partners-integrations
+- type: LLMsTxt
+  url: llms/peopleai-llms.txt
+- type: TrustCenter
+  name: Trust Center artifact
+  url: security/peopleai-trust-center.yml
+- type: DomainSecurity
+  url: security/peopleai-domain-security.yml
+- type: WellKnown
+  url: well-known/peopleai-well-known.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1

@@ -1,0 +1,22 @@
+generated: '2026-07-20'
+method: probed
+source: live probes of /.well-known/ discovery paths on People.ai hosts
+host: https://www.people.ai
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /llms.txt
+  status: 200
+  note: large full-site page dump; a concise generated version is saved at llms/peopleai-llms.txt
+notes: >-
+  People.ai publishes no /.well-known/ discovery documents. It is an enterprise
+  SaaS revenue-intelligence product with no public developer API surface. The
+  only machine-discovery document found was /llms.txt (a full-site content dump).
