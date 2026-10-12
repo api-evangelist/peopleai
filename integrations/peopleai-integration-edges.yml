@@ -1,0 +1,18 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/peopleai/integrations
+- https://zapier.com/apps/people-ai/integrations
+- https://n8n.io/integrations/peopleai/
+- https://composio.dev/toolkits/peopleai
+- https://monid.ai/tools/peopleai
+checked:
+- https://composio.dev/toolkits/peopleai
+- https://monid.ai/tools/peopleai
+- https://n8n.io/integrations/peopleai/
+- https://zapier.com/apps/people-ai/integrations
+- https://zapier.com/apps/peopleai/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
