@@ -1,5 +1,5 @@
 generated: '2026-10-12'
-method: none
+method: searched
 source:
 - https://zapier.com/apps/peopleai/integrations
 - https://zapier.com/apps/people-ai/integrations
@@ -7,12 +7,48 @@ source:
 - https://composio.dev/toolkits/peopleai
 - https://monid.ai/tools/peopleai
 checked:
+- google-workspace/integrations/google-workspace-integration-edges.yml
 - https://composio.dev/toolkits/peopleai
 - https://monid.ai/tools/peopleai
 - https://n8n.io/integrations/peopleai/
 - https://zapier.com/apps/people-ai/integrations
 - https://zapier.com/apps/peopleai/integrations
+- zoom/integrations/zoom-integration-edges.yml
 summary: null
 marketplace_apps: []
-edges: []
+edges:
+- partner_name: Google Workspace (own)
+  partner: google-workspace
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://workspace.google.com/marketplace/app/peopleai/714057686991
+  mirror_of: google-workspace/integrations/google-workspace-integration-edges.yml
+  apps:
+  - People.ai
+  listing_count: 1
+  detected: '2026-10-18'
+  detected_by: mirror-platform-listings.py
+  category: Google Workspace app
+- partner_name: Zoom (own)
+  partner: zoom
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://marketplace.zoom.us/apps/RMvMZCTyQV6c_9DLcFPJHg
+  mirror_of: zoom/integrations/zoom-integration-edges.yml
+  apps:
+  - People.ai
+  listing_count: 1
+  detected: '2026-10-18'
+  detected_by: mirror-platform-listings.py
+  category: Zoom app
 templates: []
