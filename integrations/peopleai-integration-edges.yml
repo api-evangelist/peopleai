@@ -16,43 +16,10 @@ checked:
 - https://zapier.com/apps/people-ai/integrations
 - https://zapier.com/apps/peopleai/integrations
 - zoom/integrations/zoom-integration-edges.yml
+- salesforce/integrations/salesforce-integration-edges.yml
 summary: null
 marketplace_apps: []
 edges:
-- partner_name: Google Workspace (own)
-  partner: google-workspace
-  partner_match: mirror
-  mirror_match: domain
-  type: marketplace
-  relationship: platform-app
-  direction: third-party
-  channel: partner-built
-  marketplace: own
-  evidence: https://workspace.google.com/marketplace/app/peopleai/714057686991
-  mirror_of: google-workspace/integrations/google-workspace-integration-edges.yml
-  apps:
-  - People.ai
-  listing_count: 1
-  detected: '2026-10-18'
-  detected_by: mirror-platform-listings.py
-  category: Google Workspace app
-- partner_name: Zoom (own)
-  partner: zoom
-  partner_match: mirror
-  mirror_match: domain
-  type: marketplace
-  relationship: platform-app
-  direction: third-party
-  channel: partner-built
-  marketplace: own
-  evidence: https://marketplace.zoom.us/apps/RMvMZCTyQV6c_9DLcFPJHg
-  mirror_of: zoom/integrations/zoom-integration-edges.yml
-  apps:
-  - People.ai
-  listing_count: 1
-  detected: '2026-10-18'
-  detected_by: mirror-platform-listings.py
-  category: Zoom app
 - partner_name: Cloud Security Alliance STAR Registry
   partner: null
   partner_match: register
@@ -87,4 +54,55 @@ edges:
     detected: '2026-10-20'
   detected_by: sweep-compliance-assurance.py
   first_seen: '2026-10-20'
+- partner_name: Google Workspace (own)
+  partner: google-workspace
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://workspace.google.com/marketplace/app/peopleai/714057686991
+  mirror_of: google-workspace/integrations/google-workspace-integration-edges.yml
+  apps:
+  - People.ai
+  listing_count: 1
+  detected: '2026-10-18'
+  detected_by: mirror-platform-listings.py
+  category: Google Workspace app
+- partner_name: Zoom (own)
+  partner: zoom
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://marketplace.zoom.us/apps/RMvMZCTyQV6c_9DLcFPJHg
+  mirror_of: zoom/integrations/zoom-integration-edges.yml
+  apps:
+  - People.ai
+  listing_count: 1
+  detected: '2026-10-18'
+  detected_by: mirror-platform-listings.py
+  category: Zoom app
+- partner_name: Salesforce (own)
+  partner: salesforce
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000EcsCtUAJ
+  mirror_of: salesforce/integrations/salesforce-integration-edges.yml
+  apps:
+  - Next Generation Account Execution & Planning  | People.ai
+  listing_count: 1
+  detected: '2026-10-21'
+  detected_by: mirror-platform-listings.py
+  category: sales
 templates: []
